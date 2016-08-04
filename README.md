@@ -28,9 +28,9 @@ Unless a persistent volume is used, the data stored in postgres will be lost if 
 1. Un-comment the appropriate volume sections in `app/rc.yml` and `db/rc.yml`
 
 ### Set database password
-1. Set Postgres username and password in `.k2e/secret.yaml`. 
+1. Set Postgres username and password in `rs/secret.yaml`. 
 
-*Note: Secret  data values are base64 encoded.*
+*Note: Secret data values are base64 encoded.*
 
  
 
